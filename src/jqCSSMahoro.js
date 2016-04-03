@@ -49,6 +49,7 @@ export default function (jQuery) {
       if (options.hide) {
         hideElm($elm, options.hide);
       }
+      dfd.resolve($elm[0]);
     }
   }
 }
