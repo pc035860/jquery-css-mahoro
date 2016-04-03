@@ -1,0 +1,24 @@
+{
+  "parser": "babel-eslint",
+  "extends": "airbnb",
+  "plugins": ["react"],
+  "ecmaFeatures": {
+    "experimentalObjectRestSpread": true
+  },
+  "rules": {
+    "comma-dangle": [0, "never"],
+    "new-cap": [1, {"newIsCap": true, "capIsNew": false}],
+    "no-use-before-define": [2, "nofunc"],
+    "no-multi-spaces": 0,
+    "func-names": 0,
+    "brace-style": [2, "stroustrup"],
+    "no-unused-vars": [1, {
+      "args": "none",
+      "argsIgnorePattern": "^__",
+      "varsIgnorePattern": "^__"
+    }],
+    "key-spacing": 0,
+    "no-console": 1,
+    "no-else-return": 0
+  }
+}
