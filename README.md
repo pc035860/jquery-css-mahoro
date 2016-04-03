@@ -1,4 +1,4 @@
-# jquery-css-mahoro
+# jquery-css-mahoro [![Build Status](https://travis-ci.org/pc035860/jquery-css-mahoro.svg?branch=master)](https://travis-ci.org/pc035860/jquery-css-mahoro) [![npm](https://img.shields.io/npm/v/jquery-css-mahoro.svg)](https://www.npmjs.com/package/jquery-css-mahoro)
 
 jQuery plugin for managing CSS animations in a simple way.
 
