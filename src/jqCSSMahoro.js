@@ -6,7 +6,7 @@ const getAnimDuration = ($elm) => $elm.css('animation-duration') || '0s';
 const getAnimDelay = ($elm) => $elm.css('animation-delay') || '0s';
 
 const showElm = ($elm, opt) => {
-  $elm.css('display', typeof opt === 'string' ? opt : 'inline-block');
+  $elm.css('display', typeof opt === 'string' ? opt : 'block');
 };
 
 const hideElm = ($elm, opt) => $elm.css('display', 'none');
