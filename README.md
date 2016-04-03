@@ -48,7 +48,7 @@ $(hiddenElement).cssMahoro('animated fadeIn', { show: 'inline-block' })
 ## Install
 
 ```sh
-npm install jquery.css-mahoro
+npm install jquery-css-mahoro
 ```
 
 ## License
