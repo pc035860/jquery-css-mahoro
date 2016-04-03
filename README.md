@@ -31,14 +31,15 @@ $(...).cssMahoro('animated bounce')
 ### Hide
 
 ```js
-// For CSS animation that hides element,
+// For CSS animation that hides element
 $(visibleElement).cssMahoro('animated fadeOut', { hide: true });
 ```
 
 ### Show
 
 ```js
-// For CSS animation that shows element,
+// For CSS animation that shows element
+// default display is `block`
 $(hiddenElement).cssMahoro('animated fadeIn', { show: true });
 
 // Custom `display` property
