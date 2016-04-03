@@ -53,5 +53,5 @@ npm install jquery-css-mahoro
 
 ## License
 
-jquery.cssMahoro is licensed under the MIT license. (http://opensource.org/licenses/MIT)
+jquery-css-mahoro is licensed under the MIT license. (http://opensource.org/licenses/MIT)
 
