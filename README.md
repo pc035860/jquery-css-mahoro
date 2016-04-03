@@ -1,4 +1,4 @@
-# jquery.cssMahoro
+# jquery-css-mahoro
 
 jQuery plugin for managing CSS animations in a simple way.
 
