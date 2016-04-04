@@ -2,9 +2,18 @@
 
 jQuery plugin for managing CSS animations in a simple way.
 
+## What is does
+
+CSS Mahoro adds/removes CSS animation classes for you at the right time
+
+1. Adds CSS animation class
+2. CSS animation running
+3. Removes CSS animation class
+
 ## Usage
 
-Example below are the usage with [Animate.css](https://github.com/daneden/animate.css/). You can use any other CSS animations as long as it triggers CSS animation on the element.
+Example below are the usage with [Animate.css](https://github.com/daneden/animate.css/).
+**You can use any CSS animation as long as it triggers CSS animation on the element.**
 
 ### Basic
 
