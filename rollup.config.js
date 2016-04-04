@@ -1,3 +1,6 @@
+import argvSetEnv from 'argv-set-env';
+argvSetEnv();
+
 import babel from 'rollup-plugin-babel';
 import nodeResolve from 'rollup-plugin-node-resolve';
 import commonjs from 'rollup-plugin-commonjs';
