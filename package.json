@@ -1,6 +1,6 @@
 {
   "name": "jquery-css-mahoro",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "jQuery plugin for managing CSS animations in a simple way.",
   "files": [
     "LICENSE",
