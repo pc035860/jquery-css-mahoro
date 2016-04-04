@@ -11,7 +11,7 @@ module.exports = function (config) {
     basePath: '../',
     files: [
       'node_modules/jquery/dist/jquery.min.js',
-      'lib/jquery.css-mahoro.js',
+      'dist/jquery.css-mahoro.min.js',
       'test/template.html',
       'test/test.js'
     ],
