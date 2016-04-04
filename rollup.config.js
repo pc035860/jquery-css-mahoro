@@ -3,7 +3,7 @@ import nodeResolve from 'rollup-plugin-node-resolve';
 import commonjs from 'rollup-plugin-commonjs';
 
 export default {
-  entry: 'src/index.js',
+  entry: 'lib/index.js',
   plugins: [
     babel(),
     nodeResolve({
@@ -13,5 +13,5 @@ export default {
     }),
     commonjs()
   ],
-  dest: 'lib/jquery.css-mahoro.js'
+  dest: 'dist/jquery.css-mahoro.js'
 };
