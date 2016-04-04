@@ -130,14 +130,16 @@ describe('$(...).cssMahoro', function () {
       it('should be able to run in parallel', function (done) {
         this.timeout(100 + timeoutOffset);
 
-        const parallelPromise = $('.test, .test2').cssMahoro('fadeIn');
+        const parallelPromise = $('.test-parallel').cssMahoro('fadeIn');
 
-        expect($('.test').hasClass(className.in)).to.be.true;
-        expect($('.test2').hasClass(className.in)).to.be.true;
+        expect($('.test-parallel').filter(`.${className.in}`)).to.have.lengthOf(2);
+
+        setTimeout(() => {
+          expect($('.test-parallel').filter(`.${className.in}`)).to.have.lengthOf(2);
+        }, 50);
 
         parallelPromise.then(() => {
-          expect($('.test').hasClass(className.in)).to.be.false;
-          expect($('.test2').hasClass(className.in)).to.be.false;
+          expect($('.test-parallel').not(`.${className.in}`)).to.have.lengthOf(2);
           done();
         });
       });
