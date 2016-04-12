@@ -1,5 +1,7 @@
 # jquery-css-mahoro [![Build Status](https://travis-ci.org/pc035860/jquery-css-mahoro.svg?branch=master)](https://travis-ci.org/pc035860/jquery-css-mahoro) [![npm](https://img.shields.io/npm/v/jquery-css-mahoro.svg)](https://www.npmjs.com/package/jquery-css-mahoro)
 
+[![Join the chat at https://gitter.im/pc035860/jquery-css-mahoro](https://badges.gitter.im/pc035860/jquery-css-mahoro.svg)](https://gitter.im/pc035860/jquery-css-mahoro?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 jQuery plugin for managing CSS animations in a simple way.
 
 ## What is does
