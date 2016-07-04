@@ -16,5 +16,6 @@ export default {
     }),
     commonjs()
   ],
+  format: 'iife',
   dest: 'dist/jquery.css-mahoro.js'
 };
