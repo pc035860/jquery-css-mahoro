@@ -65,10 +65,10 @@ npm install jquery-css-mahoro
 
 ### CDN
 
-CSS Mahoro uses [npmcdn](https://npmcdn.com/).
+CSS Mahoro uses [unpkg](https://unpkg.com/).
 
 ```html
-<script src="https://npmcdn.com/jquery-css-mahoro/dist/jquery.css-mahoro.min.js"></script>
+<script src="https://unpkg.com/jquery-css-mahoro/dist/jquery.css-mahoro.min.js"></script>
 ```
 
 ## License
